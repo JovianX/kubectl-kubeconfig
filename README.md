@@ -5,12 +5,13 @@ To generate an administrative Kubeconfig file follow steps
 
 
 1. Clone this repo
-```
+```bash 
 $ git clone https://github.com/JovianX/Generate-Kubeconfig
 ```
 
 2. Run the kubeconfig-create.sh script, this script generates a Kubeconfig file that allows full administrative access to the cluster.
-```bash
+
+```console
 $ ./kubeconfig-create.sh
 Generate administrative Kubeconfig file for your cluster
 
