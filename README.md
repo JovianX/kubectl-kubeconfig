@@ -18,4 +18,4 @@ Please note that this creates a Kubernetes service account 'jovianx-admin' with 
 Proceed?[Y/n] 
 ```
 
-> Note that this creates a Kubernetes service account 'jovianx-admin' with *CLUSTER-ADMIN* role in the 'jovianx-system' namespace.
+Note: that this creates a Kubernetes service account 'jovianx-admin' with *CLUSTER-ADMIN* role in the 'jovianx-system' namespace.
