@@ -1,18 +1,12 @@
 # Generate administrative Kubeconfig file for your cluster
 
 
-To generate an administrative Kubeconfig file follow steps 
+To generate an administrative Kubeconfig file follow steps run the following command 
 
 
-1. Clone this repo
 ```bash 
-$ git clone https://github.com/JovianX/Generate-Kubeconfig
-```
+$ bash <(curl -s https://raw.githubusercontent.com/JovianX/Generate-Kubeconfig/master/kubeconfig-create.sh)
 
-2. Run the kubeconfig-create.sh script, this script generates a Kubeconfig file that allows full administrative access to the cluster.
-
-```console
-$ ./kubeconfig-create.sh
 Generate administrative Kubeconfig file for your cluster
 
 This script generates a Kubeconfig file that allows full administrative access to your cluster
