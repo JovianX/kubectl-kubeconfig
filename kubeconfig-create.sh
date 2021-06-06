@@ -16,13 +16,13 @@ create_target_folder() {
 }
 
 test_current_kubeconfig() {
-    echo -e -n "\\nTrying to get resoruces using currnet Kubeconfig..."
+    echo -e -n "\\nTrying to get resoruces using current Kubeconfig..."
     kubectl get pods --all-namespaces
     printf "done"
 }
 
 test_generated_kubeconfig() {
-    echo -e -n "\\nTrying to get resoruces using generated Kubeconfig..."
+    echo -e -n "\\nTrying to get resources using generated Kubeconfig..."
     KUBECONFIG=${KUBECFG_FILE_NAME} kubectl get pods --all-namespaces
     printf "done"
 }
