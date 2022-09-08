@@ -1,8 +1,10 @@
-# Generate administrative Kubeconfig file for your cluster
+# Kubectl Kubeconfig Plugin
 
+A kubectl plugin that generates tokenized Kubeconfig files for your Kubernetes clusters.
 
-To generate an administrative Kubeconfig file follow steps run the following command 
+## Generate an administrative Kubeconfig
 
+Run the following command:
 
 ```bash 
 $ bash <(curl -s https://raw.githubusercontent.com/JovianX/Generate-Kubeconfig/master/kubeconfig-create.sh)
