@@ -9,6 +9,6 @@ else
 fi
 
 mkdir -p ~/.local/bin
-curl -LJ https://raw.githubusercontent.com/JovianX/kubectl-kubeconfig/master/kubectl-kubeconfig --output ~/.local/bin/kubectl-kubeconfig
+curl -s -LJ https://raw.githubusercontent.com/JovianX/kubectl-kubeconfig/master/kubectl-kubeconfig --output ~/.local/bin/kubectl-kubeconfig
 chmod +x ~/.local/bin/kubectl-kubeconfig
 
