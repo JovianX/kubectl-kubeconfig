@@ -1,4 +1,4 @@
-# Kubectl Kubeconfig Plugin
+  # Kubectl Kubeconfig Plugin
 
 A kubectl plugin that generates tokenized Kubeconfig files for your Kubernetes clusters.
 
