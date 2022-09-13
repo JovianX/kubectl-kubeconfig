@@ -6,7 +6,7 @@ A kubectl plugin that generates tokenized Kubeconfig files for your Kubernetes c
 ## Installation
 
 ```bash
-curl -s https://jovianx.github.io/kubectl-kubeconfig/installer | bash 
+curl -s https://kubeconfig.jovianx.app/install | bash 
 
 ```
 
