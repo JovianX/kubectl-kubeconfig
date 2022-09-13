@@ -1,8 +1,17 @@
-# Kubectl Kubeconfig Plugin
+  # Kubectl Kubeconfig Plugin
 
 A kubectl plugin that generates tokenized Kubeconfig files for your Kubernetes clusters.
 
-## Generate an administrative Kubeconfig
+
+## Installation
+
+```bash
+curl -s http://server/path/script.sh | bash -s arg1 arg2
+
+```
+
+## Usage
+### Generate an administrative Kubeconfig
 
 Run the following command:
 
@@ -20,4 +29,4 @@ Please note that this creates a Kubernetes service account 'jovianx-admin' with 
 Proceed?[Y/n] 
 ```
 
-Note: that this creates a Kubernetes service account 'jovianx-admin' with *CLUSTER-ADMIN* role in the 'jovianx-system' namespace.
+> Note: that this creates a Kubernetes service account 'jovianx-admin' with *CLUSTER-ADMIN* role in the 'jovianx-system' namespace.
