@@ -9,6 +9,13 @@ else
 fi
 
 mkdir -p ~/.local/bin
+
 curl -s -LJ https://raw.githubusercontent.com/JovianX/kubectl-kubeconfig/master/kubectl-kubeconfig --output ~/.local/bin/kubectl-kubeconfig
 chmod +x ~/.local/bin/kubectl-kubeconfig
 
+curl -s -LJ https://raw.githubusercontent.com/JovianX/kubectl-kubeconfig/master/kubectl-kubeconfig-generate --output ~/.local/bin/kubectl-kubeconfig-generate
+chmod +x ~/.local/bin/kubectl-kubeconfig-generate
+
+if [[ $# -gt 0 ]]; then
+    kubectl kubeconfig generate "$@"
+fi
