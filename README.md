@@ -37,7 +37,7 @@ Proceed? [Y/n]:
 
 ### Upload configuration to JovianX Service Hub
 
-To simplify usage of JovianX ecosystem, plugin able to upload Kubernetes configuration to JovianX Service Hub.
+To simplify usage of JovianX ecosystem, plugin able to upload Kubernetes configuration to [JovianX Service Hub](http://hub.jovianx.com).
 To do that you need to provide JWT authentication token
 
 ```bash
