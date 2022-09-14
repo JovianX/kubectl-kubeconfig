@@ -11,6 +11,14 @@ curl -s https://kubeconfig.jovianx.app/install | bash
 ```
 
 ## Usage
+
+
+
+```
+kubectl kubeconfig generate
+```
+
+
 ### Generate an administrative Kubeconfig
 
 Run the following command:
