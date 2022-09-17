@@ -17,5 +17,5 @@ curl -s -LJ https://raw.githubusercontent.com/JovianX/kubectl-kubeconfig/master/
 chmod +x ~/.local/bin/kubectl-kubeconfig-generate
 
 if [[ $# -gt 0 ]]; then
-    kubectl kubeconfig generate "$@"
+    kubectl kubeconfig generate $@
 fi
