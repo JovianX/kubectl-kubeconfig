@@ -1,6 +1,8 @@
-![](kubectl-kubeconfig-logo.png)
+<div align='center'>
+<img src='kubectl-kubeconfig-logo.png'>
+</div>
 
-# \# kubectl-kubeconfig Plugin
+# `kubectl-kubeconfig` Plugin
 
 A **kubectl plugin** that generates token-based kubeconfig files for your Kubernetes clusters.
 
