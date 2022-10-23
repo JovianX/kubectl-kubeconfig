@@ -3,7 +3,7 @@ set -e
 set -o pipefail
 
 if [[ ":$PATH:" == *":$HOME/.local/bin:"* ]]; then
-  echo "Your path is correctly set"
+  echo "Adding cluster from local Kubeconfig..."
 else
   echo "Your path is missing ~/.local/bin, you might want to add it."
 fi
